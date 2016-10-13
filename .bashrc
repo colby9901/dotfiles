@@ -1,9 +1,8 @@
-export HISTSIZE=1000
-export HISTFILESIZE=2000
-export PATH=/usr/local/bin:$PATH
-
-alias prod="ssh root@www01.prod.evilcorp.com"
+source ~/.exports
 
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+alias prod="ssh root@www01.prod.evilcorp.com"
+alias db="mysql -uroot db01.dev.evilcorp.com"
