@@ -1,5 +1,5 @@
 export HISTSIZE=1000
 export HISTFILESIZE=2000
 
-export EC_UID="4"
-export EC_USER="tcolby"
+export ECORP_UID="4"
+export ECORP_USER="tcolby"
